@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.OrangeHRM.OrangeHRM_TestNG" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T04:21:19" hostname="HIBACL131408" time="25.702">
+  <properties/>
+  <testcase name="Login" classname="com.OrangeHRM.OrangeHRM_TestNG" time="25.702"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1612239679887	geckodriver	INFO	Listening on 127.0.0.1:8876
+1612239679925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilekhHLtC"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1612239689880	Marionette	INFO	Listening on port 62883
+1612239690400	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 02, 2021 9:51:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1612239703208	Marionette	INFO	Stopped listening on port 62883
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>

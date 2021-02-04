@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.OrangeHRM.LoginPage" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T04:20:50" hostname="HIBACL131408" time="28.689">
+  <properties/>
+  <testcase name="LoginwithValidCredentials" classname="com.OrangeHRM.LoginPage" time="28.689"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1612239652115	geckodriver	INFO	Listening on 127.0.0.1:47090
+1612239652641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile7ZHlc9"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1612239663560	Marionette	INFO	Listening on port 62816
+1612239663737	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 02, 2021 9:51:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1612239676926	Marionette	INFO	Stopped listening on port 62816
+]]></system-err>
+</testsuite>
